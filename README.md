@@ -1,4 +1,4 @@
-# Important difference between standard HTML tables and div tables
-And a critical difference between div tables
+# Does preloading of modules make sense?
+An easy to implement technique relieving developers of bundling
 
-Sample code for my post https://marian-caikovski.medium.com/important-difference-between-standard-html-tables-and-div-tables-b6b094ec2c79 comparing performance of standard HTML tables and div tables
+Sample code for post https://marian-caikovski.medium.com/does-preloading-of-modules-make-sense-7c3ee9ccdd45 about the performance benefits of module preloading with link type="modulepreload"

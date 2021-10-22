@@ -32,7 +32,7 @@ function showAverages() {
 let frames = ['no', 'preload'];
  
 
-document.body.innerHTML = frames.reduce((t, frame) => t + `<p>${frame}</p><div id='${frame}'></div>`, '');
+document.body.innerHTML =document.body.innerHTML+ frames.reduce((t, frame) => t + `<p>${frame}</p><div id='${frame}'></div>`, '');
 
 const durations = Object.fromEntries(frames.map(frame => ([frame, []])));
 
